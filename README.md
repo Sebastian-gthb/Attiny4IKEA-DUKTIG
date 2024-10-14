@@ -3,8 +3,9 @@ This Project is to replace the microcontroller board in the stove of the IKEA pl
 This is the code for the Attiny85.
 
 Code features:
-- power down deep sleep after 5 minutes or after all hobs are switched of
 - debouncing the buttons in software
+- auto switch of both hobs after 5 minutes
+- power down (deep sleep) the Attiny after all hobs are switched of
 
 Hardware modifications:
 - remove 2 of the 3 LEDs from eache hob
